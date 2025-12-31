@@ -1,0 +1,80 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #fef6fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: #fff;
+    width: 330px;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+h1, h2 {
+    color: #ff82a9;
+}
+
+.option {
+    display: block;
+    margin: 18px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.option input {
+    transform: scale(1.3);
+    margin-right: 10px;
+    accent-color: #ff82a9;
+    cursor: pointer;
+}
+
+.egg-img {
+    width: 170px;
+}
+
+.wait-text {
+    font-size: 14px;
+    margin: 12px 0;
+    color: #444;
+}
+
+.timer-display {
+    font-size: 34px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #ff82a9;
+}
+
+.btn {
+    background: #ffb7d5;
+    border: none;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #ff9bc4;
+}
+
+.close {
+    background: #ffd3e8;
+}
+
+.cute-egg {
+    width: 150px;
+}
+
+.enjoy {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #444;
+}
